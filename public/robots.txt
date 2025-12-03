@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Block all crawlers for /form, /eligibility and /formauth
+User-agent: *
+Disallow: /form
+Disallow: /eligibility
+Disallow: /formauth
+Disallow: /nomination
+Disallow: /nominationauth
+
+User-agent: facebookexternalhit
+Disallow: /eligibility
+Disallow: /formauth
+Disallow: /nominationauth
